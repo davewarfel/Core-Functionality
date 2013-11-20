@@ -11,7 +11,7 @@ This plugin contains all your site's added functionality. It keeps all content &
 
 The following functions are included. Feel free to delete them or comment them out.
 
-<strong>Admin Functions:</strong>
+Admin Functions:
 
 * Syntax for registering custom post types & taxonomies
 * Remove the default contact methods from user profile pages (aim, jabber, yim)
@@ -22,7 +22,7 @@ The following functions are included. Feel free to delete them or comment them o
 * A file for editing the admin dashboard
 * A file for general admin functions that don't fit anywhere else
 
-<strong>Frontend Functions:</strong>
+Frontend Functions:
 
 * A file for registering & enqueueing styles and scripts
 * Clean up the <head>
