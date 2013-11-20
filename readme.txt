@@ -5,11 +5,31 @@ Tested up to: 3.7.1
 Stable tag: trunk
 License: GPL2
 
-This plugin contains all your site's added functionality, in addition to what's available in WordPress Core. It keeps all content & functionality theme-independent. In many cases, add code to this plugin instead of your theme's functions.php file.
+This plugin contains all your site's added functionality. It keeps all content & functionality theme-independent. In many cases, add code to this plugin instead of your theme's functions.php file.
 
 == Description ==
 
-More details available on github: https://github.com/davewarfel/custom-functions
+The following functions are included. Feel free to delete them or comment them out.
+
+<strong>Admin Functions:</strong>
+
+* Syntax for registering custom post types & taxonomies
+* Remove the default contact methods from user profile pages (aim, jabber, yim)
+* Add custom image sizes to <select> dropdown when inserting images into a post
+* Custom login styles for wp-login.php (load CSS, custom logo, custom message)
+* A file for creating custom shortcodes
+* A file for creating custom widgets
+* A file for editing the admin dashboard
+* A file for general admin functions that don't fit anywhere else
+
+<strong>Frontend Functions:</strong>
+
+* A file for registering & enqueueing styles and scripts
+* Clean up the <head>
+* is_tree - Check if current page is a subpage of its parent
+* the_slug - Echo the post slug
+* Add odd/even post class on archive pages
+* Add class to posts if they have a featured image
 
 == Installation ==
 
@@ -33,7 +53,7 @@ If you change the folder structure, just be sure to update all the include state
 
 = Where do I put CSS files, javascript & images? =
 
-There are separate folders for each of these assets in the `assets` folder.
+There are separate folders for each of these assets in the `assets` folder. All assets related to functions in this plugin should be included in this folder.
 
 == Changelog ==
 
